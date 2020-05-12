@@ -1,0 +1,9 @@
+cabal-version:       >=1.10
+name:                glue
+version:             0.1.0.0
+build-type:          Simple
+
+library
+  exposed-modules:     Glue
+  build-depends:       base >=4.12 && <4.13, bar
+  default-language:    Haskell2010

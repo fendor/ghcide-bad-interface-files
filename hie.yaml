@@ -1,0 +1,8 @@
+cradle:
+  cabal:
+    - path: ./bar
+      component: lib:bar
+    - path: ./foo
+      component: lib:foo
+    - path: ./glue
+      component: lib:glue
